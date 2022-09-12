@@ -12,10 +12,9 @@ import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.Selenide.$;
 import static io.qameta.allure.Allure.step;
 
-public class RegistrationFormTests extends TestBase1 {
+public class RegistrationFormTests extends TestBase {
 
     @Test
-    @Tag("fillFormTest")
     void fillFormTest () {
         step("Open registration form", () -> {
             open("/automation-practice-form");

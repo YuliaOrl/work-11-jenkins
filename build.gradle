@@ -53,9 +53,3 @@ task hello_test(type: Test) {
         includeTags "hello"
     }
 }
-
-task properties_fillFormTest(type: Test) {
-    useJUnitPlatform{
-        includeTags "fillFormTest"
-    }
-}
